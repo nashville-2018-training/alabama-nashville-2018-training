@@ -1,0 +1,14 @@
+uuid: 7d5ae426-f498-4eb2-b184-c1490261acec
+name: alabama-nashville-2018-training
+mail: david.needham@getpantheon.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
