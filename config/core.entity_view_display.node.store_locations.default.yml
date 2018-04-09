@@ -1,0 +1,35 @@
+uuid: a946a76f-d4f4-417d-8bb0-ab71b6d8de75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.store_locations.body
+    - field.field.node.store_locations.field_address
+    - node.type.store_locations
+  module:
+    - address
+    - text
+    - user
+id: node.store_locations.default
+targetEntityType: node
+bundle: store_locations
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_address:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
